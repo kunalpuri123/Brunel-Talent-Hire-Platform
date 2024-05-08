@@ -1,0 +1,161 @@
+.middle-text-short h2 {
+  font-family: "Covered By Your Grace", cursive;
+  font-size: 36px;
+  font-weight: 400; /* Adjusted font weight to make it slightly less bold */
+  line-height: 39.6px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #2DA950;
+  margin-bottom: 0; /* Avoid repeated rules */
+}
+
+.middle-text-short h1 {
+  font-family: Manrope;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 67.2px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #1C1C1C;
+  margin-top: 0; /* Avoid repeated rules */
+}
+
+.right-div h1 {
+  font-family: Manrope;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #1C1C1C;
+  position: relative; /* Ensure h1 maintains its positioning */
+  z-index: 1; /* Make h1 appear above other elements */
+  left: 20%;
+  top: 25%;
+}
+
+.girl_image {
+  width: 506.98px;
+  height: 546.27px;
+  left: 206.69px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 9%; /* Make the container round */
+  overflow: hidden; /* Hide overflowing content (like rounded corners) */
+  position: relative;
+}
+
+.girl_image img {
+  width: 100%; /* Ensure the image fills the container */
+  height: 100%;
+  position: relative;
+  object-fit: fill; /* Ensure the image covers the container */
+}
+
+.container {
+  display: flex; /* Use Flexbox to create a flexible layout */
+  background-color: white;
+  width: 100vw;
+}
+
+.left-div,
+.right-div {
+  flex: 1; /* Make both divs take up equal space */
+  padding: 20px; /* Add padding for spacing */
+}
+
+.space-above-questions {
+  margin-top: 40px; /* Adjust the margin as needed */
+}
+
+.space-above-footer {
+  margin-top: 20%; /* Adjust as needed */
+}
+
+.footer {
+  position: absolute;
+  top: calc(100% + 135%); /* Adjust the value as needed to leave space below the previous component */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.rectangle-v {
+  width: 30vw;
+  height: 590px;
+  position: absolute;
+  top: 250px; /* Adjust as needed */
+  right: 0; /* Position the SVG on the right side */
+  gap: 0px;
+  opacity: 1;
+  border: #F4F4F4;
+  z-index: 0;
+ 
+}
+.girl_image {
+  position: relative;
+}
+
+.box-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* Adjust other styles as needed */
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-div {
+  width: 50%; /* Adjust as needed */
+}
+
+.right-div  {
+  width: 50%; /* Adjust as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right:12%;
+}
+
+.carousel {
+  margin-top: 165px; /* Adjust as needed */
+  
+}
+
+.custom-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 245px;
+  height: 88px;
+  padding: 31px 40px;
+  gap: 16px;
+  border-radius: 100px ;
+  opacity: 1;
+  background: linear-gradient(97.55deg, #1C1C1C 2.63%, #454444 105.2%), linear-gradient(0deg, #1C1C1C, #1C1C1C);
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.32px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+  margin-top: 10%;
+  margin-left: 22%;
+}
+
+.custom-button:hover {
+  background: 
+linear-gradient(0deg, #4E4E4E, #4E4E4E);
+
+  color: #FFFFFF;
+
+}
+
+.arrow-icon {
+  font-size: 20px;
+}
+

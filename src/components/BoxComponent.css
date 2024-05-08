@@ -1,0 +1,48 @@
+.box-container {
+    width: 267.82px;
+    height: 239px;
+    position: absolute;
+    top: 340px;
+    left: 75px;
+    padding: 30px 0px 0px 0px;
+    gap: 10px;
+    border-radius: 27.11px;
+    opacity: 1;
+    background: #FFFFFF;
+    transition: opacity 0.3s ease;
+  }
+  
+  .box-container:hover {
+    box-shadow: 0px 22.59px 36.14px 0px #1E1E1E17;
+  }
+  
+  .box-content {
+    display: flex;
+    flex-direction: column; /* Changed to column to stack the image and text */
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .box-image {
+    width: 150px; /* Increased size */
+    height: 96px; /* Adjusted height to maintain aspect ratio */
+    position: absolute; /* Positioned absolutely */
+    top: 2px; /* Positioned from the top */
+    left: 10px; /* Positioned from the right */
+    margin-bottom: 10%;
+  }
+  
+  
+  .box-text {
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.4px;
+    text-align: center;
+    color: #828282;
+    padding: 10px;
+    opacity: 1;
+    margin-top: 30px; /* Add margin bottom to create space between text and image */
+  }
+  

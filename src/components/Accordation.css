@@ -1,0 +1,36 @@
+.accordation-component {
+  background: #E8EEE7;
+  border-radius: 24px; /* Rounded corners */
+}
+
+.accordation-component .MuiAccordionDetails-root {
+  background: #E8EEE7; /* Background color for expanded section */
+  display: flex; /* Use flexbox layout */
+  flex-direction: column; /* Align items vertically */
+}
+
+.accordation-component .MuiSvgIcon-root {
+  transition: transform 0.3s; /* Transition for icon animation */
+}
+
+.accordation-component .Mui-expanded .MuiSvgIcon-root {
+  transform: rotate(180deg); /* Rotate icon when expanded */
+}
+
+#typo {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+}
+
+.accordation-details {
+  background: #E8EEE7;
+  flex: 1; /* Take up remaining space */
+}
+
+#panel1a-header {
+  background: #E8EEE7;
+  flex: 1;
+}

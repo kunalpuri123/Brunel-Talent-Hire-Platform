@@ -1,0 +1,48 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 95vw;
+  height: 144px;
+  background: #F5F5F5;
+  border-radius: 40px;
+  margin-top: 0%;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  /* Adjust the margin to increase space */
+  .footer {
+      margin-top: 15%;
+  }
+}
+
+  .copyright {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 110%;
+    color: #1C1C1C;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 52px;
+
+  }
+  
+  .footer-link {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 110%;
+    color: #1C1C1C;
+    text-decoration: underline;
+    
+  }
+  .link-gap {
+    margin: 10px;
+    padding-left: 1%; /* Adjust the margin as needed */
+  }
+  

@@ -1,0 +1,84 @@
+.container1 {
+  position: absolute;
+  top: calc(100% + 40%); /* Adjust the value as needed to leave space below the previous component */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #E8EEE7;
+  width: 95vw;
+  height: 749px;
+  gap: 0px;
+  border-radius: 40px;
+  opacity: 0px;
+}
+
+
+
+
+
+.left-div {
+  flex: 1;
+}
+
+.right-div {
+  flex: 1;
+  
+
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  width: 405px;
+  height: 111px;
+  left: calc(50% - 405px/2 - 391px);
+  top: 80px;
+  gap: 20px;
+}
+
+.text1 {
+  width: 215px;
+  height: 25px;
+  font-family: 'Covered By Your Grace', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35px;
+  letter-spacing: -0.02em;
+  color: #9E9D9D;
+}
+
+.text2 {
+  width: 405px;
+  height: 66px;
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 66px;
+  letter-spacing: -0.01em;
+
+  color: #1C1C1C;
+}
+
+.left-div{
+  margin-left: 0%;
+  align-content: left;
+  justify-content: left;
+}
+.vector-a {
+  position: absolute;
+  width: 491px;
+  height: 514.61px;
+  left: 0px;
+  right: 100%;
+  top: 120px;
+  color: linear-gradient(180.06deg, #FFFFFF 0.05%, rgba(255, 255, 255, 0) 88.86%);
+  opacity: 0.8;
+  align-content: left;
+  justify-content: left;
+}

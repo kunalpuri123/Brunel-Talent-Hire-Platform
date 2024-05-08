@@ -1,0 +1,229 @@
+.registration-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative; /* Make it a positioning context for absolutely positioned children */
+
+}
+
+
+/* Registration Form */
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 588px;
+  height: 572.22px;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Move the form down by 50% of its own height */
+  margin-top: 8%;
+ 
+}
+
+
+/* Form Heading */
+.registration-heading {
+    width: 231px;
+height: 28px;
+gap: 0px;
+opacity: 0px;
+
+    font-family: 'Covered By Your Grace';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 39.6px;
+    letter-spacing: -0.02em;
+    color: #2DA950;
+    margin-bottom: 0;
+}
+
+/* Form Subheading */
+.registration-subheading {
+    font-family: 'Manrope';
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 67.2px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #1C1C1C;
+    margin-bottom: 0;
+}
+
+/* Input Field */
+.form-group input {
+  width: 450px;
+  height: 70px;
+  padding: 24px 36px;
+  font-size: 20px;
+  border-radius: 64px;
+  background: #EFEFEF;
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  margin-bottom: 20px;
+  /* Centering horizontally */
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* Submit Button */
+.submit-button {
+    width: 480px;
+    height: 70px;
+    padding: 26.11px 49.61px 26.11px 41.78px;
+    background: linear-gradient(0deg, #1C1C1C, #1C1C1C), linear-gradient(97.55deg, #1C1C1C 2.63%, #454444 105.2%);
+    border-radius: 107.06px;
+    color: #fff;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+}
+
+/* Disabled Submit Button */
+.submit-button:disabled {
+    background: linear-gradient(0deg, #C9C9C9, #C9C9C9);
+    cursor: not-allowed;
+  }
+.error-message {
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    color: #FF0808;
+    width: auto; /* Set width to auto to allow the element to expand horizontally */
+    max-width: 100%; /* Ensure the element doesn't exceed the container's width */
+    height: 22px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+}
+.navbar_items1 {
+    width: 95vw; /* Adjusted width to fit within the viewport */
+    display: flex;
+    height: 10vh; /* 10% of the viewport height */
+    padding: 1.5vh 2vh 1.5vh 4vh; /* Adjusted padding using vh */
+    gap: 1vh; /* Adjusted gap using vh */
+    border-radius: 5vh; /* Adjusted border radius using vh */
+    
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Spread items horizontally */
+    opacity: 1; /* Changed opacity to 1 for visibility */
+}
+
+.navbar_logo1 {
+    width: 15vw; /* Adjusted width to fit within the viewport */
+    height: 6vh; /* Adjusted height using vh */
+    margin-right: auto; /* Push logo to the left */
+    
+}
+
+.navbar_logo1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.success-text {
+    font-family: Manrope;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 35.1px;
+    text-align: center;
+    color: #727272;
+    width: 718px;
+    height: 105px;
+    gap: 0px;
+    opacity: 1;
+  }
+  
+  .success-congo {
+    font-family: Manrope;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 67.2px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #1C1C1C;
+    width: 423px;
+    height: 67px;
+    gap: 0px;
+    opacity: 1;
+    margin-bottom: 0;
+  }
+  
+  .success-content {
+    width: 100%;
+    max-width: 718px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    opacity: 1;
+  }
+  
+  .success-heading {
+    font-family: 'Covered By Your Grace';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 39.6px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #2DA950;
+    width: 237px;
+    height: 28px;
+    gap: 0px;
+    opacity: 1;
+  }
+  
+  .success-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 718px;
+    gap: 0px;
+    opacity: 1;
+  }
+  .check-circle-icon {
+    width: 80px;
+    height: 80px;
+    color: green;
+    opacity: 1;
+
+  }
+  .redirect-message {
+    position: absolute;
+    width: 718px;
+    height: 26px;
+ 
+     /* Adjust as needed */
+    top:80%;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px; /* Adjust line height if needed */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+    text-align: center;
+    color: #727272;
+  }
+  
+  .span-text {
+    font-weight: 700;
+    color: #1C1C1C;
+  }
+  
