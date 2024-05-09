@@ -2,7 +2,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import "./Homepage.css";
-import girl from './HomepageImages/homepage_girl.png';
+import girl from './homepage_girl.png';
 import Questions from './Questions';
 import Footer from './Footer';
 import BoxComponent from './BoxComponent';
