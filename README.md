@@ -3,6 +3,7 @@
 
 ## Description
 Brunel-Talent Hiring Platform is a web application developed using React.js for managing talent recruitment processes.
+(Open in Desktop Chrome Browser as it is not responsive yet - https://brunel-kunal-puri.netlify.app/ )
 
 ## Technologies Used
 - React.js: Frontend JavaScript library for building user interfaces.
